@@ -15,7 +15,7 @@ hero:
       link: /bloque1/xampp
     - theme: alt
       text: Ver cronograma
-      link: /api-examples
+      link: /introduccion/cronograma
 
 features:
   - icon: 🚀
