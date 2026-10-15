@@ -9,7 +9,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Manual', link: '/bloque1/xampp' }
+      { text: 'Manual', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP' },
     ],
 
     sidebar: [
