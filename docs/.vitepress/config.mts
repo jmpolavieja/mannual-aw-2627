@@ -2,7 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Manual de Wordpress",
+  base: "/manualAW2627/",
+  title: "Manual de WordPress",
   description: "Un manual para la asignatura de Aplicaciones Web",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
