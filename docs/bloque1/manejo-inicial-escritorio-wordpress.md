@@ -1,0 +1,87 @@
+# 1.3 Manejo Inicial y Recorrido por el Escritorio de WordPress
+
+Una vez completada la instalación local de WordPress, el administrador accede al centro de control del sistema, conocido como **Backend** o **Panel de Administración** (`/wp-admin`). En esta sección exploraremos la interfaz gráfica de usuario, los widgets del escritorio y las opciones fundamentales de configuración.
+
+---
+
+## 1. Estructura General de la Interfaz
+
+El panel de administración de WordPress se divide en tres áreas funcionales principales:
+
+1. **Barra Superior de Herramientas (*Admin Bar*):** Visible en la parte superior tanto en el backend como en el frontend (para usuarios autenticados). Ofrece accesos directos para conmutar entre la vista pública y el panel, ver notificaciones de actualizaciones, moderar comentarios pendientes y crear contenidos rápidamente a través del botón **"+ Nuevo"**.
+2. **Menú Lateral Principal:** Ubicado a la izquierda, da acceso a todos los módulos de gestión del CMS (entradas, páginas, medios, usuarios, plugins, temas y ajustes).
+3. **Área de Trabajo Principal:** Espacio central donde se cargan los formularios, tablas de administración y editores de contenido según la opción seleccionada en el menú lateral.
+
+---
+
+## 2. Pantalla de Inicio y Opciones de Pantalla
+
+Al iniciar sesión, la primera pantalla que se muestra es el **Escritorio (*Dashboard*)**, que ofrece un resumen del estado del sitio mediante tarjetas modulares (*widgets*):
+
+* **De un vistazo (*At a Glance*):** Muestra un resumen cuantitativo de las publicaciones (número de entradas y páginas), comentarios totales y la versión activa de WordPress con el tema cargado.
+* **Actividad (*Activity*):** Muestra las últimas publicaciones programadas o recientemente publicadas, así como los comentarios pendientes de moderación.
+* **Borrador rápido (*Quick Draft*):** Permite redactar ideas o notas rápidas asignándoles un título y contenido base sin necesidad de abrir el editor completo.
+* **Salud del sitio (*Site Health Status*):** Notifica aspectos críticos o recomendados sobre el rendimiento y la seguridad del entorno (versión de PHP, extensiones activas de MySQL, configuración de HTTPS, etc.).
+* **Eventos y noticias de WordPress:** Novedades oficiales de la comunidad y actualizaciones de seguridad.
+
+::: tip Opciones de Pantalla
+En la esquina superior derecha de casi todas las pantallas del backend existe el desplegable **Opciones de pantalla**. Permite mostrar, ocultar o reordenar los bloques y columnas visibles según las preferencias del usuario.
+:::
+
+---
+
+## 3. Recorrido por las Secciones del Menú Lateral
+
+El menú de administración se organiza en bloques funcionales bien delimitados:
+
+### 3.1 Gestión de Contenidos y Medios
+* **Entradas (*Posts*):** Creación y administración de artículos del blog o noticias. Incluye las subsecciones para gestionar las **Categorías** y **Etiquetas**.
+* **Medios (*Media*):** Biblioteca multimedia donde se almacenan imágenes, documentos PDF, audios y vídeos.
+* **Páginas (*Pages*):** Creación y administración de las páginas estáticas que componen la arquitectura base del portal (*Inicio*, *Servicios*, *Contacto*).
+* **Comentarios (*Comments*):** Moderación, aprobación, edición, respuesta o marcaje como *Spam* de las aportaciones de los visitantes.
+
+### 3.2 Personalización y Funcionalidades
+* **Apariencia (*Appearance*):** Selección e instalación de temas (*Themes*), acceso al **Editor del sitio (FSE)** o Personalizador, y gestión de menús de navegación y widgets.
+* **Plugins:** Módulos que añaden nuevas funcionalidades al core de WordPress. Permite instalar, activar, desactivar o eliminar complementos.
+
+### 3.3 Administración del Sistema
+* **Usuarios (*Users*):** Listado y gestión del **Control de Acceso Basado en Roles (RBAC)**. Permite añadir nuevos usuarios y editar el perfil personal (contraseña, avatar, esquema de colores de la interfaz).
+* **Herramientas (*Tools*):** Funciones de importación y exportación de contenidos (XML), diagnóstico de la **Salud del sitio** y herramientas de privacidad (exportación y borrado de datos personales).
+* **Ajustes (*Settings*):** Configuración técnica del sitio web.
+
+---
+
+## 4. Ajustes Iniciales Críticos del Sitio
+
+Antes de comenzar la producción de contenidos, es imprescindible revisar y configurar los parámetros globales del sistema desde la sección **Ajustes**:
+### Checklist de Configuración Inicial:
+
+1. **Ajustes Generales:**
+    * **Título del sitio:** Nombre corporativo del proyecto (ej. *Colegio Altair - Aplicaciones Web*).
+    * **Descripción corta:** Slogan o resumen en una frase.
+    * **Zona horaria:** Fijar en `Madrid` o `UTC+1` / `UTC+2` (según horario de verano/invierno) para evitar desfases en la publicación programada de entradas.
+    * **Idioma del sitio:** Seleccionar `Español`.
+
+2. **Ajustes de Lectura:**
+    * **Visibilidad en los motores de búsqueda:** Marcar la casilla *"Disuadir a los motores de búsqueda de indexar este sitio"* mientras el sitio se encuentre en fase de desarrollo local (XAMPP).
+
+3. **Ajustes de Enlaces Permanentes (*Permalinks*):**
+    * Cambiar la opción por defecto (`/?p=123`) a **Nombre de la entrada** (`/pagina-ejemplo/`). Esto activa el módulo `mod_rewrite` de Apache y genera URLs limpias y amigables para el usuario y los motores de búsqueda.
+
+---
+
+## 🧪 Práctica Guiada de Aula: Exploración del Escritorio y Ajustes Iniciales
+
+### Objetivo:
+Familiarizarse con el backend de WordPress, personalizar el perfil de usuario y aplicar los ajustes base de administración en el servidor local.
+
+### Pasos a realizar:
+
+1. **Acceso al Panel:** Inicia los servicios de XAMPP y accede a `http://localhost/mi_sitio_wordpress/wp-admin` con tus credenciales de administrador.
+2. **Personalización del Perfil:** Ve a `Usuarios > Perfil`. Cambia el esquema de colores de la administración, añade tu nombre y apellidos, fija tu apodo y asegúrate de elegir *"Mostrar nombre públicamente como"* con tu nombre real.
+3. **Personalización de los Ajustes Generales:**
+    * Título del sitio: `AplicaWeb - [Tu Nombre]`.
+    * Descripción corta: `Prácticas de 2º SMR - Colegio Altair`.
+    * Zona horaria: `Madrid`.
+4. **Configuración de URLs Amigables:** Ve a `Ajustes > Enlaces permanentes`, selecciona la opción **Nombre de la entrada** y guarda los cambios.
+5. **Personalización del Escritorio:** Abre la pantalla de inicio (`Escritorio > Inicio`), despliega **Opciones de pantalla** y deja visibles únicamente las tarjetas *De un vistazo* y *Salud del sitio*.
