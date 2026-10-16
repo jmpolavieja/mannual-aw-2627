@@ -3,8 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/mannual-aw-2627/",
-  title: "Manual de WordPress",
+  title: "Manual de Aplicaciones Web (2º SMIR)",
   description: "Un manual para la asignatura de Aplicaciones Web",
+  markdown: {
+    math: true // Esto activa el renderizado de fórmulas matemáticas
+  },
   themeConfig: {
     logo: '/logoAltair.png',
     // https://vitepress.dev/reference/default-theme-config
@@ -20,7 +23,7 @@ export default defineConfig({
           { text: '1.1. Servidor de Desarrollo XAMPP', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP' },
           { text: '1.2. Despliegue de WordPress Paso a Paso', link: '/bloque1/1.2.Despliegue-de-WordPress' },
           { text: '1.3. Manejo Inicial de WordPress', link: '/bloque1/1.3.Manejo-Inicial-de-WordPress' },
-          { text: '1.4. Gestión de Contenidos: Páginas, Entradsas y Taxonomías', link: '/bloque1/1.4.GestionContenidos'}
+          { text: '1.4. Gestión de Contenidos: Páginas, Entradas y Taxonomías', link: '/bloque1/1.4.GestionContenidos'}
         ]
       }
     ],
