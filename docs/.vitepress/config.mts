@@ -6,6 +6,7 @@ export default defineConfig({
   title: "Manual de WordPress",
   description: "Un manual para la asignatura de Aplicaciones Web",
   themeConfig: {
+    logo: '/logoAltair.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

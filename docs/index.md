@@ -7,7 +7,7 @@ hero:
   text: "Un manual para la asignatura de Aplicaciones Web"
   tag-line: "Colegio Altair - Sevilla"
   image: 
-    src: /logoAltair.png
+    src: /logoTransparente.png
     alt: Aplicaciones Web Altair
   actions:
     - theme: brand
