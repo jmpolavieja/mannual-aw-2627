@@ -79,8 +79,8 @@ Durante los meses de marzo a junio, el alumnado permanece el 100 % de la jornada
 La nota final del módulo en las convocatorias oficiales integra el rendimiento presencial en centro y la evaluación en la empresa:
 
 $$
-\text{Calificación Final} = (\text{FEOE} \times 0.12) + (\text{Media UTs Lectivas} \times 0.28) + (\text{Media Supuestos Prácticos} \times 0.60)
+\text{Calificación Final} = (\text{FEOE} \times 0.10) + (\text{Media UTs Lectivas} \times 0.30) + (\text{Media Supuestos Prácticos} \times 0.60)
 $$
-* **FEOE (12 %):** Valoración cuantitativa derivada del informe del tutor laboral de la empresa.
-* **Media de UTs Lectivas (28 %):** Promedio de los retos prácticos y cuestionarios diarios de las unidades presenciales.
+* **FEOE (10 %):** Valoración cuantitativa derivada del informe del tutor laboral de la empresa.
+* **Media de UTs Lectivas (30 %):** Promedio de los retos prácticos y cuestionarios diarios de las unidades presenciales.
 * **Media de Supuestos Prácticos (60 %):** Calificación de los proyectos globales integradores de cada bloque del curso.
