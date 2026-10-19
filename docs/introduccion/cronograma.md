@@ -5,8 +5,27 @@ El módulo profesional de **Aplicaciones Web (Código 0228)** del ciclo formativ
 ---
 
 ## 🗓️ Estructura General de Fases Formativas
----
 
+::: info 🏫 FASE 1: FORMACIÓN LECTIVA CONTINUA EN EL COLEGIO ALTAIR (Septiembre a Marzo)
+**Carga horaria:** 84 horas lectivas presenciales en aula técnica (4 h/semana)
+
+* **Trimestre 1 (Sep - Dic):**
+    * **UD0:** Arquitectura Web y Entornos Locales de Desarrollo (XAMPP) — `6 h`
+    * **UD1:** Gestores de Contenidos: Dominio de WordPress y Nociones de otros CMS — `24 h`
+
+* **Trimestre 2 (Ene - Mar):**
+    * **UD2:** Plataformas de Aprendizaje a Distancia (LMS - Moodle) — `16 h`
+    * **UD3:** Servicios de Gestión de Archivos Web y Nube Privada (Nextcloud) — `14 h`
+    * **UD4:** Maquetación y Desarrollo Cliente (HTML5, CSS3 y Ampliación JavaScript) — `24 h`
+:::
+
+::: tip 🏢 FASE 2: FORMACIÓN INTENSIVA EN EMPRESA (Marzo a Junio)
+**Permanencia:** 100 % en la empresa elegida (30 h equivalentes dentro de las 250 h de estancia laboral)
+
+* **Trimestre 3 (Mar - Jun):**
+    * **UD5 (Empresa):** Aplicaciones de Ofimática Web Colaborativa (RA4) — `15 h`
+    * **UD6 (Empresa):** Aplicaciones Web de Escritorio, Correo Webmail y Calendarios (RA5) — `15 h`
+:::
 ## 📊 Tabla de Unidades Didácticas y Resultados de Aprendizaje
 
 | Unidad Didáctica | Horas | Periodo / Trimestre | Resultado de Aprendizaje (RA) |
