@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: Comenzar Manual
-      link: /bloque1/Servidor-de-Desarrollo-XAMPP
+      link: /bloque1/1.1.Servidor-de-Desarrollo-XAMPP
     - theme: alt
       text: Ver cronograma
       link: /introduccion/cronograma
