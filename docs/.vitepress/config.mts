@@ -42,7 +42,9 @@ export default withMermaid(
             { text: '1.9. Ecosistema de Plugins: Formularios y Utilidades', link: '/bloque1/1.9.Plugins-Formularios' },
             { text: '1.10. Seguridad Web, Hardening y Copias de Seguridad', link: '/bloque1/1.10.Seguridad-Hardening-Backups' },
             // --- PROYECTO INTEGRADOR ---
-            { text: '1.11. Proyecto Guiado: Mi Primera Web Corporativa Completa', link: '/bloque1/1.11.Proyecto-Web-Completa' }
+            { text: '1.11. Proyecto Guiado: Mi Primera Web Corporativa Completa', link: '/bloque1/1.11.Proyecto-Web-Completa' },
+            // ----EJEMPLO MEMORIA TÉCNICA ---
+            { text: 'Guía didáctica para la memoria técnica', link: '/bloque1/guia-didactica-memoria-tecnica'}
           ]
         }
       ],
