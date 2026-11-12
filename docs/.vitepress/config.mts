@@ -54,7 +54,7 @@ export default withMermaid(
           collapsed: false,
           items: [
             { text: '2.1. Panorama de los CMS: Monolíticos, Headless y SSG', link: '/bloque2/2.1.Panorama-CMS-Clasificacion' },
-            { text: '2.11. Práctica Guiada y Selección de Arquietectura', link: '/bloque2/2.1.1.practica_guiada'},
+            { text: '2.11. Práctica Guiada y Selección de Arquietectura', link: '/bloque2/2.11.practica_guiada'},
             { text: '2.2. Plataformas LMS: Despliegue y Cursos en Moodle', link: '/bloque2/2.2.Plataformas_LMS_Moodle' },
             { text: '2.3. CMS E-Commerce: Gestión de Tiendas con PrestaShop', link: '/bloque2/2.3.CMS-Ecommerce-Prestashop' },
             { text: '2.4. Generadores de Sitios Estáticos: Manuales con VitePress', link: '/bloque2/2.4.Generadores-Estaticos-VitePress' },
