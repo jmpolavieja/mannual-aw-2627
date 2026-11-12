@@ -28,7 +28,7 @@ export default withMermaid(
       sidebar: [
         {
           text: 'Bloque 1: Servidores Locales y CMS',
-          collapsed: false,
+          collapsed: true,
           items: [
             {text: '1.1. Servidor de Desarrollo XAMPP', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP'},
             {text: '1.2. Despliegue de WordPress Paso a Paso', link: '/bloque1/1.2.Despliegue-de-WordPress'},
@@ -51,7 +51,7 @@ export default withMermaid(
         },
         {
           text: 'Bloque 2: Otros CMS, LMS y Generadores Estáticos',
-          collapsed: false,
+          collapsed: true,
           items: [
             { text: '2.1. Panorama de los CMS: Monolíticos, Headless y SSG', link: '/bloque2/2.1.Panorama-CMS-Clasificacion' },
             { text: '2.11. Práctica Guiada y Selección de Arquietectura', link: '/bloque2/2.11.practica_guiada'},
