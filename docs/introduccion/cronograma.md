@@ -1,105 +1,80 @@
-# Cronograma y Secuenciación Temporal
+# 📅 Cronograma y Secuenciación Didáctica
 
-El módulo profesional de **Aplicaciones Web (Código 0228)** del ciclo formativo de Grado Medio en **Sistemas Microinformáticos y Redes (SMR)** en el **Colegio Altair** cuenta con una carga total de **114 horas**, distribuidas en dos fases formativas diferenciadas.
+El módulo profesional de **Aplicaciones Web (Código 0228)** cuenta con una carga horaria total de 84 horas lectivas presenciales en aula técnica (4 horas semanales), complementadas con 30 horas equivalentes integradas en la fase de formación en empresa (FEOE).
+
+La planificación pedagógica ejerce la autonomía organizativa para articular el aprendizaje en **dos fases temporales diferenciadas**, garantizando la evaluación continua e integradora por Resultados de Aprendizaje (RA).
 
 ---
 
-## 🗓️ Estructura General de Fases Formativas
+## 🏛️ Marco Normativo de Ordenación
 
-::: info 🏫 FASE 1: FORMACIÓN LECTIVA CONTINUA EN EL COLEGIO ALTAIR (Septiembre a Marzo)
-**Carga horaria:** 84 horas lectivas presenciales en aula técnica (4 h/semana)
+::: info 📑 Regulaciones Autonómicas de Referencia
+* **Orden de 7 de julio de 2009:** Desarrolla el currículo oficial del título de Técnico en Sistemas Microinformáticos y Redes en Andalucía (módulo 0228 con 84 h presenciales).
+* **Decreto 147/2025, de 17 de septiembre:** Establece la ordenación general y la autonomía pedagógica de los centros docentes (Art. 14).
+* **Orden de 18 de septiembre de 2025:** Regula los procesos de evaluación continua, calificación y titulación por Resultados de Aprendizaje.
+* **Orden de 26 de septiembre de 2025:** Regula la fase de formación en empresa u organismo equiparado (FEOE).
+  :::
 
-* **Trimestre 1 (Sep - Dic):**
-    * **UD0:** Arquitectura Web y Entornos Locales de Desarrollo (XAMPP) — `6 h`
-    * **UD1:** Gestores de Contenidos: Dominio de WordPress y Nociones de otros CMS — `24 h`
+---
 
-* **Trimestre 2 (Ene - Mar):**
-    * **UD2:** Plataformas de Aprendizaje a Distancia (LMS - Moodle) — `16 h`
-    * **UD3:** Servicios de Gestión de Archivos Web y Nube Privada (Nextcloud) — `14 h`
-    * **UD4:** Maquetación y Desarrollo Cliente (HTML5, CSS3 y Ampliación JavaScript) — `24 h`
+## 🏫 FASE 1: Formación Lectiva Presencial en el Colegio Altair
+**Calendario:** Septiembre a Marzo (Trimestres 1 y 2) | **Carga Horaria:** 84 horas lectivas presenciales (4 h/semana en aula técnica).
+
+::: tip 🎯 Evaluación Criterial de la Fase 1
+Durante esta fase se imparten y evalúan de forma continua los bloques de desarrollo local, administración de gestores de contenidos, plataformas de aprendizaje, nube privada y desarrollo cliente.
 :::
 
-::: tip 🏢 FASE 2: FORMACIÓN INTENSIVA EN EMPRESA (Marzo a Junio)
-**Permanencia:** 100 % en la empresa elegida (30 h equivalentes dentro de las 250 h de estancia laboral)
+### 🍂 Trimestre 1 (Septiembre – Diciembre)
 
-* **Trimestre 3 (Mar - Jun):**
-    * **UD5 (Empresa):** Aplicaciones de Ofimática Web Colaborativa (RA4) — `15 h`
-    * **UD6 (Empresa):** Aplicaciones Web de Escritorio, Correo Webmail y Calendarios (RA5) — `15 h`
+| Unidad Didáctica | Horas | Bloque Técnico y Resultados de Aprendizaje |
+| :--- | :---: | :--- |
+| **UD0: Arquitectura Web y Entornos Locales de Desarrollo** | **6 h** | Cliente-servidor, protocolo HTTP/HTTPS, pila LAMP/WAMP y despliegue de **XAMPP** (Apache, MySQL, PHP). |
+| **UD1 (Bloque 1): Gestores de Contenidos I (WordPress)** | **26 h** | Despliegue, maquetación FSE/Gutenberg, matriz de roles RBAC, plugins, *hardening* (`wp-config.php`/MySQL), backups y **Proyecto Integrador** *(Cubre RA1 completo)*. |
+
+---
+
+### ❄️ Trimestre 2 (Enero – Marzo)
+
+| Unidad Didáctica | Horas | Bloque Técnico y Resultados de Aprendizaje |
+| :--- | :---: | :--- |
+| **UD2 (Bloque 2): Gestores de Contenidos II (Diversidad de CMS)** | **16 h** | Panorama de CMS, plataformas LMS (**Moodle**), e-commerce (**PrestaShop**) y generadores estáticos (**VitePress**) *(Cubre RA2 y amplía RA1)*. |
+| **UD3 (Bloque 3): Almacenamiento Web y Nube Privada** | **14 h** | Despliegue de **Nextcloud**, cuotas de disco, carpetas compartidas, permisos y auditoría de accesos *(Cubre RA3 completo)*. |
+| **UD4 (Bloque 4): Maquetación y Desarrollo Cliente** | **22 h** | Estructuración semántica en **HTML5**, diseño responsivo con **CSS3** (Flexbox/Grid) e introducción práctica a **JavaScript**. |
+
+---
+
+## 🏢 FASE 2: Formación Intensiva en Empresa (FEOE)
+**Calendario:** Marzo a Junio (Trimestre 3) | **Permanencia:** 100 % en estancia laboral (30 h equivalentes dentro de las 250 h de estancia dual).
+
+::: warning 💼 Integración Laboral sin Asistencia al Centro
+Durante el tercer trimestre, el alumnado desarrolla su aprendizaje directamente en el entorno de producción de la empresa asignada, evaluándose de forma coordinada con la tutoría laboral.
 :::
-## 📊 Tabla de Unidades Didácticas y Resultados de Aprendizaje
 
-| Unidad Didáctica | Horas | Periodo / Trimestre | Resultado de Aprendizaje (RA) |
+### ☀️ Trimestre 3 (Marzo – Junio)
+
+| Unidad Didáctica | Horas Eq. | Ámbito Profesional y Resultados de Aprendizaje |
+| :--- | :---: | :--- |
+| **UD5 / FEOE (Empresa): Ofimática Web Colaborativa** | **15 h** | Herramientas de edición compartida en la nube, permisos de acceso y trabajo colaborativo corporativo *(Cubre RA4)*. |
+| **UD6 / FEOE (Empresa): Aplicaciones Web de Escritorio** | **15 h** | Clientes de correo webmail, gestión de calendarios corporativos, citas y tareas compartidas *(Cubre RA5)*. |
+
+---
+
+## 📊 Resumen Horario Global del Módulo
+
+```mermaid
+pie title Distribución Horaria del Módulo de Aplicaciones Web (114 h)
+    "UD1 WordPress (RA1)" : 26
+    "UD2 Otros CMS / LMS (RA2)" : 16
+    "UD3 Nube Privada (RA3)" : 14
+    "UD4 HTML5 / CSS3 / JS" : 22
+    "UD0 Arquitectura XAMPP" : 6
+    "UD5 Ofimática Web (RA4 - Empresa)" : 15
+    "UD6 Webmail / Calendario (RA5 - Empresa)" : 15
+```
+    
+| Fase | Horas Lectivas | Ubicación | Resultados de Aprendizaje Evaluados |
 | :--- | :---: | :--- | :--- |
-| **UD0: Arquitectura Web y Entornos Locales** | **6 h** | 1.er Trimestre (Sep) | Fundamentación técnica para RA1 |
-| **UD1: Gestores de Contenidos (WordPress / CMS)** | **24 h** | 1.er Trimestre (Sep - Dic) | **RA1:** Instala gestores de contenidos |
-| **UD2: Plataformas de Aprendizaje a Distancia (LMS)** | **16 h** | 2.º Trimestre (Ene - Feb) | **RA2:** Instala sistemas de aprendizaje a distancia |
-| **UD3: Gestión de Archivos y Nube Privada** | **14 h** | 2.º Trimestre (Feb) | **RA3:** Instala servicios de gestión de archivos web |
-| **UD4: Maquetación Web (HTML5, CSS3 y JavaScript)** | **24 h** | 2.º Trimestre (Feb - Mar) | Soporte transversal para adaptación de interfaces (RA1, RA2, RA3) |
-| **UD5: Ofimática Web Colaborativa (Fase Empresa)** | **15 h** | 3.er Trimestre (Mar - Jun) | **RA4:** Instala aplicaciones de ofimática web |
-| **UD6: Aplicaciones de Escritorio Webmail (Fase Empresa)** | **15 h** | 3.er Trimestre (Mar - Jun) | **RA5:** Instala aplicaciones web de escritorio |
+| Fase 1: Lectiva Presencial | 84 h | Colegio Altair (Aula Técnica) | RA1, RA2, RA3 y Desarrollo Cliente |
+| Fase 2: Formación en Empresa | 30 h | Empresa Colaboradora | RA4 y RA5 |
+| Total Módulo | 114 h | Global | 100 % RAs Cubiertos |
 
----
-
-## 📋 Detalle de Contenidos por Unidad Didáctica
-
-### 🔵 Fase 1: Centro Educativo (Colegio Altair)
-
-::: info Criterio Metodológico de Secuenciación
-En la fase presencial se imparte en primer lugar **WordPress** de forma intensiva y completa para capacitar rápidamente al alumnado en la gestión e instalación de portales reales. Tras la enseñanza de plataformas corporativas (Moodle y Nextcloud), el bloque de **maquetación web cliente (HTML5, CSS3 y JavaScript)** se ubica al final del periodo lectivo en centro como cierre técnico antes de la salida a empresa.
-:::
-
-#### **UD0: Arquitectura Web y Entornos Locales de Desarrollo (6 h)**
-* Modelo cliente-servidor y protocolo HTTP/HTTPS.
-* Despliegue de la pila WAMP/LAMP mediante **XAMPP Portable**.
-* Gestión de bases de datos relacionales con **phpMyAdmin**.
-
-#### **UD1: Gestores de Contenidos: Dominio de WordPress y Nociones de otros CMS (24 h)**
-* Instalación local/remota y configuración del archivo `wp-config.php`.
-* Gestión de contenidos: entradas, páginas, categorías, etiquetas y biblioteca multimedia.
-* Administración de usuarios y matriz de roles (**RBAC**).
-* Personalización visual con temas, bloques (**Gutenberg**) y **Editor del Sitio (FSE)**.
-* Ecosistema de plugins, optimización, medidas de *hardening* (seguridad) y copias de seguridad.
-* Comparativa conceptual rápida con otros CMS del mercado (Joomla y Drupal).
-
-#### **UD2: Plataformas de Aprendizaje a Distancia — LMS (16 h)**
-* Despliegue e instalación de **Moodle**.
-* Estructura del sitio, jerarquía de categorías, creación de cursos y matriculación de usuarios.
-* Configuración de actividades, cuestionarios, módulos de comunicación y copias de seguridad de cursos.
-
-#### **UD3: Servicios de Gestión de Archivos Web y Nube Privada (14 h)**
-* Instalación y configuración de servidores de almacenamiento privado en la nube (**Nextcloud / OwnCloud**).
-* Gestión de cuentas de usuario, permisos de acceso, recursos compartidos y políticas de seguridad.
-
-#### **UD4: Maquetación y Desarrollo Web Cliente: HTML5, CSS3 y JavaScript (24 h)**
-* Estructura semántica HTML5 (`<header>`, `<nav>`, `<article>`, `<section>`, `<footer>`).
-* Maquetación visual con CSS3 (modelo de cajas, Flexbox y CSS Grid).
-* *Ampliación de código:* Introducción a JavaScript (sintaxis básica, eventos de interacción y validación de formularios).
-
----
-
-### 🟢 Fase 2: Formación Intensiva en Empresa
-
-::: tip Integración Laboral
-Durante los meses de marzo a junio, el alumnado permanece el 100 % de la jornada en el centro de trabajo asignado. Los Resultados de Aprendizaje 4 y 5 se evalúan en coordinación con el tutor laboral.
-:::
-
-#### **UD5: Aplicaciones de Ofimática Web Colaborativa (15 h equivalentes — RA4)**
-* Explotación en entornos reales de herramientas colaborativas en la nube (**Google Workspace**, **Microsoft 365** o **Nextcloud Office**).
-* Gestión de cuentas corporativas, edición concurrente de documentos y permisos de compartición.
-
-#### **UD6: Aplicaciones Web de Escritorio, Correo Webmail y Calendarios (15 h equivalentes — RA5)**
-* Despliegue y uso de clientes Webmail corporativos (**Roundcube**).
-* Integración de calendarios compartidos, gestión de tareas y aplicaciones web progresivas (PWA).
-
----
-
-## 📈 Criterios de Calificación Final del Módulo
-
-La nota final del módulo en las convocatorias oficiales integra el rendimiento presencial en centro y la evaluación en la empresa:
-
-$$
-\text{Calificación Final} = (\text{FEOE} \times 0.10) + (\text{Media UTs Lectivas} \times 0.30) + (\text{Media Supuestos Prácticos} \times 0.60)
-$$
-* **FEOE (10 %):** Valoración cuantitativa derivada del informe del tutor laboral de la empresa.
-* **Media de UTs Lectivas (30 %):** Promedio de los retos prácticos y cuestionarios diarios de las unidades presenciales.
-* **Media de Supuestos Prácticos (60 %):** Calificación de los proyectos globales integradores de cada bloque del curso.

@@ -6,7 +6,7 @@ import {withMermaid} from 'vitepress-plugin-mermaid'
 export default withMermaid(
   defineConfig({
     base: "/mannual-aw-2627/",
-    title: "Manual de Aplicaciones Web (2º SMIR)",
+    title: "Aplicaciones Web",
     description: "Un manual para la asignatura de Aplicaciones Web",
     markdown: {
       math: true // Esto activa el renderizado de fórmulas matemáticas
@@ -21,12 +21,14 @@ export default withMermaid(
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         {text: 'Home', link: '/'},
-        {text: 'Manual', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP'},
+        {text: 'Bloque 1', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP'},
+        {text: 'Bloque 2', link: '/bloque2/2.1.Panorama-CMS-Clasificacion'}
       ],
 
       sidebar: [
         {
           text: 'Bloque 1: Servidores Locales y CMS',
+          collapsed: false,
           items: [
             {text: '1.1. Servidor de Desarrollo XAMPP', link: '/bloque1/1.1.Servidor-de-Desarrollo-XAMPP'},
             {text: '1.2. Despliegue de WordPress Paso a Paso', link: '/bloque1/1.2.Despliegue-de-WordPress'},
@@ -45,6 +47,18 @@ export default withMermaid(
             { text: '1.11. Proyecto Guiado: Mi Primera Web Corporativa Completa', link: '/bloque1/1.11.Proyecto-Web-Completa' },
             // ----EJEMPLO MEMORIA TÉCNICA ---
             { text: 'Guía didáctica para la memoria técnica', link: '/bloque1/guia-didactica-memoria-tecnica'}
+          ]
+        },
+        {
+          text: 'Bloque 2: Otros CMS, LMS y Generadores Estáticos',
+          collapsed: false,
+          items: [
+            { text: '2.1. Panorama de los CMS: Monolíticos, Headless y SSG', link: '/bloque2/2.1.Panorama-CMS-Clasificacion' },
+            { text: '2.11. Práctica Guiada y Selección de Arquietectura', link: '/bloque2/2.1.1.practica_guiada'},
+            { text: '2.2. Plataformas LMS: Despliegue y Cursos en Moodle', link: '/bloque2/2.2.Plataformas_LMS_Moodle' },
+            { text: '2.3. CMS E-Commerce: Gestión de Tiendas con PrestaShop', link: '/bloque2/2.3.CMS-Ecommerce-Prestashop' },
+            { text: '2.4. Generadores de Sitios Estáticos: Manuales con VitePress', link: '/bloque2/2.4.Generadores-Estaticos-VitePress' },
+            { text: '2.5. Comparativa Técnica y Criterios de Elección de CMS', link: '/bloque2/2.5.Comparativa-Criterios-Eleccion' }
           ]
         }
       ],

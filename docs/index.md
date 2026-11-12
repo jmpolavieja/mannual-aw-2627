@@ -11,7 +11,7 @@ hero:
     alt: Aplicaciones Web Altair
   actions:
     - theme: brand
-      text: Comenzar Manual
+      text: Wordpress
       link: /bloque1/1.1.Servidor-de-Desarrollo-XAMPP
     - theme: alt
       text: Ver cronograma
